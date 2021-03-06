@@ -1,0 +1,59 @@
+Pseudo Code;
+
+/*
+		1 - Given a temperature in degrees Centigrade (C), convert it into
+			degrees Fahrenheit (F)
+
+		2 - Given a temperature in degrees Kelvin (K), convert it into degrees
+			Rankine (R)
+
+					( K = 273 + C, R = 512 + F)
+
+		3 - Calculate the are and the perimeter of a circler, given its
+			diameter.
+
+				(pi = 3.1416)
+
+				Area of a circle = pi * r^2
+				Perimeter of a circle = 2 * pi * radius
+
+		4 - Calculate the volume and the surface are of a cylinder, using the
+			following formulas. (Note: You should decide which values must be 
+			given as input to solve this problem)
+
+
+				Volume = pi * radius^2 * height
+				Surface Area = (2 * pi * radius^2) + (2 * pi * radius * height)
+*/
+
+
+int main()
+{
+	printf(program explanation)
+
+	int iUserSel (The value of the user's choices will be hold)
+
+	while true (Main menu loop)
+	{
+		scanf(The process of assigning the user selection to the generated value)
+
+		double dVar (Variable to keep user data);
+
+		if (First tab)
+		{
+			printf(Tab information)
+		}
+
+		else if (Second tab)
+
+		else if (Third tab)
+
+		else if (Fourth tab)
+
+		else if (Help tab)
+
+		else if (To leave the program)
+
+		else (Error prevention)
+	}
+}
