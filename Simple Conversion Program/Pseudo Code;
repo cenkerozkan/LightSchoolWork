@@ -1,0 +1,217 @@
+Pseudo Code;
+
+
+	1 - Given the amount of dollars you have, calculate how much
+		Turkish Liras it makes
+
+	2 - Given the amount of Turkish Liras you have, calculate how much Dollars
+		or how much Euros you can buy with it. 
+
+	3 - Given a length in feet, convert it into milimeters.
+		(1 foot = 12 inches, 1 inch = 2.54 cm)
+
+	4 - Given a temperature in degrees Fahrenheit (F), convert it 
+		into degrees Centigrade (C) by using the formula:
+
+			C = (F - 32) / (1.8)
+
+
+
+
+	int main()
+	{
+
+		printf (Program information);
+
+		while true
+		{
+
+			scanf (User choice assignment);			
+
+			if (Dollar to TL Conversion)
+			{
+				printf (Tab information);
+
+				double dVar (Variable to store the user data);
+
+				while true (Tab menu)
+				{
+					scanf (User data assignment);
+
+					if (dVar is not equal to zero and 1)
+					{
+						Calculations
+
+						printf (Giving a feedback to the user about result);
+					}
+
+					else if (dVar is equal to zero)
+					{
+						Break the loop and continue to the main menu
+					}
+
+					else if (dVar is equal to 1)
+					{
+						Remind user what this tab about
+					}
+
+					else (Error prevention)
+					{
+						print (Inform user about there has been a mistake occured)
+					}
+				}
+			}
+
+
+			else if (TL to Dollar and Euro Conversion)
+			{
+				printf (Tab information);
+
+				double dVar (Variable to store the user data);
+
+				while true (Tab menu)
+				{
+
+					scanf (User data assignment);
+
+					if (dVar is not equal to zero and 1)
+					{
+						Calculations
+
+						printf (Giving a feedback to the user about result);
+					}
+
+					else if (dVar is equal to zero)
+					{
+						Break the loop and continue to the main menu
+					}
+
+					else if (dVar is equal to 1)
+					{
+						Remind user what this tab about
+					}
+
+					else (Error prevention)
+					{
+						print (Inform user about there has been a mistake occured)
+					}
+				}
+			}
+
+
+			else if (Feet to Milimeters Conversion)
+			{
+				printf (Tab information)
+
+				double dVar (Variable to store the user data);
+
+				while true (Tab menu)
+				{
+					scanf (User data assignment);
+
+					if (dVar is not equal to zero and 1)
+					{
+						Calculations
+
+						printf (Giving feedback to the user about the result);
+					}
+
+					else if (dVar is equal to zero)
+					{
+						Break the loop and continue to the main menu
+					}
+
+					else if (dVar is equal to 1)
+					{
+						Remind user what this tab about
+					}
+
+					else (Error prevention)
+					{
+						print (Inform user about there has been a mistake occured)
+					}
+				}
+			}
+
+
+			else if (Fahrenheit Degrees to Centigrade Degrees Conversion)
+			{
+				printf (Tab information);
+
+				double dVar (Variable to store the user data);
+
+				while true (Tab menu)
+				{
+					scanf (User data assignment);
+
+					if (dVar is not equal to zero and 1)
+					{
+						Calculations 
+
+						printf (Giving feedback to the user about the result);
+					}
+
+					else if (dVar is equal to zero)
+					{
+						Break the loop and continue to the main menu
+					}
+
+					else if (dVar is equal to 1)
+					{
+						Remind user what this tab about
+					}
+
+					else (Error prevention)
+					{
+						print (Inform user about there has been a mistake occured)
+					}
+				}
+			}
+
+
+			else if (If user wants to end the app)
+			{
+				printf (Tab information);
+
+				double dVar (Variable to store user data);
+
+				while true (Tab menu)
+				{
+					if (dVar is not equal to zero and 1)
+					{
+
+					}
+
+					else if (dVar is equal to 0)
+					{
+
+					}
+
+					else if (dVar is equal to 1)
+					{
+						Remind user what this tab is about
+					}
+
+					else (Error prevention)
+					{
+						print (Inform user about there has been a mistake occured)
+					}
+				}
+			}
+
+			
+			else if (Help section)
+			{
+				printf (Print the explanation of the app)
+			}
+
+
+			else (Error prevention)
+			{
+				print (Inform user about there has been a mistake occured)
+			}
+		}
+
+		return 0;
+
+	}
