@@ -1,0 +1,244 @@
+This program has been written to perform
+the specific tasks mentioned below:
+
+	1 - Take a quantity given in TL and find the VAT (KDV)
+		for this amount if VAT rate is 8%
+
+	2 - Given the cost of an item in TL, display the amount of
+		VAT you have to pay for it, and the cost of the item with
+		VAT, if percentage of the VAT for that item is 12%
+
+	3 - Given the marks a student got from Midterm 1, Midterm 2
+		and final exam of a course, calculate the average grade
+		of that student
+
+	4 - Solve the previous problem again, but this time calculate
+		the wighted average grade of that student, so that, Midterm 1
+		forms 25%, Midterm 2 forms %30, and the final exam forms %45 of
+		his grade.
+
+
+int main()
+{
+	int iUserSel (To control the main menu loop)
+
+	while (true)
+	{
+
+		double dVar (Value to hold user inputs);
+
+		if(First tab)
+		{
+			printf("Tab information");
+
+			scanf(Variable assignment {dVar});
+
+			// Calculations \\
+
+			printf("output");
+
+			while (true)
+			{
+
+				printf("Ask the user if they are done with this tab");
+
+				scanf("Variable assignment {iUserSel}");
+
+				if (iUserSel is equal to 1 or 2)
+				{
+					if (iUserSel is equal to 2)
+					{
+						iUserSel = (Current tab number);
+						break; (To exit the if c ondition by breaking the inner loop)
+					}
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about the mistake");
+				}
+			}
+		}
+
+		else if(Second tab)
+		{
+			// Since this tab contains two different conditions, it would be more efficient to keep the values under this tab \\
+
+			double dPrice; (User will enter the price of the item)
+
+			double dTax; (User will enter tax of the item)
+
+			printf("Tab information");
+
+			scanf("Variable assignment {dPrice}");
+
+			printf("Tab information");
+
+			scanf("Variable assignment {dTax}");
+
+			if (dTax is equal or bigger than %12 of dPrice)
+			{
+				printf("Output");
+			}
+
+			else
+			{
+				printf("Output")
+			}
+
+			while (true)
+			{
+
+				printf("Ask the user if they are done with this tab");
+
+				scanf("Variable assignment {iUserSel}");
+
+				if (iUserSel is equal to 1 or 2)
+				{
+					if (iUserSel is equal to 2)
+					{
+						iUserSel = (Current tab number);
+						break; (To exit the if c ondition by breaking the inner loop)
+					}
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about the mistake");
+				}
+			}
+		}
+
+		else if(Third tab)
+		{
+			double dMidterm1;
+
+			double dMidterm2;
+
+			double dFinal;
+
+			int iCounter = 0; (The value that will control the while loop we will use so that the user can enter the value under a single block.)
+
+			printf("Tab information");
+
+			while (iCounter is not equal to 3)
+			{
+				printf("Request {iCounter + 1}");
+
+				scanf(Variable assignment {dMidterm1});
+
+				iCounter++; (To control the loop)
+
+				if (iCounter == 2)
+				{
+					printf("Request Final Exam");
+
+					scanf(Variable assignment);
+
+					iCounter++
+				}
+			}
+
+			// Calculations \\
+
+			printf("Output");
+
+			while (true)
+			{
+
+				printf("Ask the user if they are done with this tab");
+
+				scanf("Variable assignment {iUserSel}");
+
+				if (iUserSel is equal to 1 or 2)
+				{
+					if (iUserSel is equal to 2)
+					{
+						iUserSel = (Current tab number);
+						break; (To exit the if c ondition by breaking the inner loop)
+					}
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about the mistake");
+				}
+			}
+		}
+
+		else if(Fourth tab)
+		{
+			// In this tab, the weighted grade average will be calculated. \\
+
+			double dMidterm1;
+
+			double dMidterm2;
+
+			double dFinal;
+
+			int iCounter = 0; (The value that will control the while loop we will use so that the user can enter the value under a single block.)
+
+			printf("Tab information");
+
+			while (iCounter is not equal to 3)
+			{
+				printf("Request {iCounter + 1}");
+
+				scanf(Variable assignment {dMidterm1});
+
+				iCounter++; (To control the loop)
+
+				if (iCounter == 2)
+				{
+					printf("Request Final Exam");
+
+					scanf(Variable assignment);
+
+					iCounter++
+				}
+			}
+
+			// Calculations \\
+
+			printf("Output");
+
+			while (true)
+			{
+
+				printf("Ask the user if they are done with this tab");
+
+				scanf("Variable assignment {iUserSel}");
+
+				if (iUserSel is equal to 1 or 2)
+				{
+					if (iUserSel is equal to 2)
+					{
+						iUserSel = (Current tab number);
+						break; (To exit the if c ondition by breaking the inner loop)
+					}
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about the mistake");
+				}
+			}
+		} 
+
+		else if(If the user wants to close the program)
+		{
+			break;
+		} 
+
+		else(In case user makes any mistake)
+		{
+			printf("Informing user about mistake")
+		}
+
+		printf("Application information");
+
+	}
+
+	return 0;
+
+}
