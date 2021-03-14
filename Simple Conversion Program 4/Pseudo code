@@ -1,0 +1,395 @@
+/* This program is written to perform specific tasks given below;
+
+
+	1 - Given a distance in meters and the speed of a car in km/h, 
+		calculate how many seconds it will take for that car to travel
+		that distance +++ 
+
+
+	2 - A car traveling down a road approaches an intersection and slows
+		down from a high speed to a lower speed in a certain time. Calculate the car's constant rate of acceleration, using the
+		following formula. +++
+
+			(Note: You should decide which values must be given as input to solve this problem.)
+
+			acceleration = (Vfinal - Vinitial) / time
+
+
+	3 - The cost to the consumer of a new car is the sum of the wholesale
+		cost of the car, the dealer's markup for 12 percent and a sales tax of 6 percent, calculate the consumer's cost given the wholesale
+		cost of the car he buys. +++
+
+
+	4 - A real estate agency pays its sales staff a salary of 400 Dollars
+		per month plus a commission of 50 Dollars for each piece of real estate
+		they sell plus 1 percent of the value of the sale. Compute and display
+		a salesperson's salary given the number and the total value of sales
+		he made in that month. +++
+
+
+	5 - Given a three digit integer, display each of its digits as individual 
+		numbers like 357 -- 3 5 7 +++
+
+
+	6 - Given a distance in meters, display it in meters, centimeters and 
+		milimeters. +++
+
+			34.468 meter == 34 Meters 46 Centimeters 8 Milimeters
+
+
+	7 - Given a time duration in minutes, display this time duration in days, hours
+		and minutes. 
+
+			if the given duration is 3550 min. Display it as 
+
+				2 days, 11 hours, 10 min
+
+
+
+
+NOTE: To prevent infinite loop, insert random print statements in the if conditions
+	  which are not finished yet. 
+
+
+int main()
+{
+	int iUserSel (To control the main menu loop and to control transitions between tabs)
+
+	printf("Application information")
+
+	while (true) (Main menu loop)
+	{
+
+		double dVar (To keep user input)
+
+		if (First tab (iUserSel == 1))
+		{
+			printf("Tab information")
+
+			scanf(Variable assignment {dVar})
+
+			// Calculations \\
+
+			printf("Output")
+
+			while (true) (To ask user if he/she is done on this tab)
+			{
+				printf("Question")
+
+				scanf(Variable assignment {iUserSel})
+
+				if (iUserSel == 1) (If the user enters 1, it means he is not done yet in current tab)
+				{
+					iUserSel = (Current tab number)
+
+					break;
+				}
+
+				else if (iUserSel == 0)
+				{
+					break; (Here it would be enough to just break the loop, since the user has already entered the number zero,
+							after exiting the conditional statement, the program will directly forward the default message to the user.)
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about a mistake")
+				}
+			}
+		}
+
+
+		else if (Second tab)
+		{
+			(Since more than one value must be kept for this problem, it will be more efficient to define the 
+			variables to be used in this tab in here.)
+
+			double dVelocity (To keep velocity value given by user)
+
+			double dTimeSpent (To keep time taken given by user)
+
+			printf("Tab information with the Velocity input request")
+
+			scanf (Variable assignment {dVelocity})
+
+			printf("Time variable request")
+
+			scanf (variable assignment {dTimeSpent})
+
+			// Calculations \\
+
+			printf("Output")
+
+			while (true) (To ask user if he/she is done on this tab)
+			{
+				printf("Question")
+
+				scanf(Variable assignment {iUserSel})
+
+				if (iUserSel == 1) (If the user enters 1, it means he is not done yet in current tab)
+				{
+					iUserSel = (Current tab number)
+
+					break;
+				}
+
+				else if (iUserSel == 0)
+				{
+					break; (Here it would be enough to just break the loop, since the user has already entered the number zero,
+							after exiting the conditional statement, the program will directly forward the default message to the user.)
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about a mistake")
+				}
+			}
+		}
+
+
+		else if (Third tab)
+		{
+			(Since more than one value must be kept for this problem, it will be more efficient to define the 
+			variables to be used in this tab in here.)
+
+			double dTax (To keep 6 percent tax)
+
+			double dMarkup (To keep 12 percent markup)
+
+			double dCommission (To keep 1 percent commission)
+
+			printf("Tab information")
+
+			scanf(Variable assignment {dTax})
+
+			printf("Request")
+
+			scanf(Variable assignment {dMarkup})
+
+			printf("Request")
+
+			scanf(Variable assignment {dMarkup})
+
+			// Calculations \\
+
+			printf("Output")
+
+			while (true) (To ask user if he/she is done on this tab)
+			{
+				printf("Question")
+
+				scanf(Variable assignment {iUserSel})
+
+				if (iUserSel == 1) (If the user enters 1, it means he is not done yet in current tab)
+				{
+					iUserSel = (Current tab number)
+
+					break;
+				}
+
+				else if (iUserSel == 0)
+				{
+					break; (Here it would be enough to just break the loop, since the user has already entered the number zero,
+							after exiting the conditional statement, the program will directly forward the default message to the user.)
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about a mistake")
+				}
+			}			
+		}
+
+
+		else if (Fourth tab)
+		{
+			(Since more than one value must be kept for this problem, it will be more efficient to define the 
+			variables to be used in this tab in here.)
+
+			double dSalary = 400 (Standard salary)
+
+			double dSalesPrice (To keep the value of the sale made)
+
+			double dSwap = 0; (If more than one sale is made, to keep the 50 Dollars and %1 commission calculated from the value of these sales)
+
+			int iControlFlag (To control the while loop which is for checking if there is more than one sale or not)
+
+			while (iControlFlag != 0)
+			{
+				printf("More than one sales ?")
+
+				scanf(Variable assignment {dSwap})
+
+				printf("Are you done ?")
+
+				scanf(Variable assignment {iControlFlag})
+
+				if (iControlFlag == 1 or 0)
+				{
+					if (iControlFlag == 0)
+					{
+						break;
+					}
+				}
+
+				else (Error prevention)
+				{
+					printf("Inform user about a mistake")
+				}
+			}
+
+			// Calculations \\
+
+			printf("Output")
+
+			while (true) (To ask user if he/she is done on this tab)
+			{
+				printf("Question")
+
+				scanf(Variable assignment {iUserSel})
+
+				if (iUserSel == 1) (If the user enters 1, it means he is not done yet in current tab)
+				{
+					iUserSel = (Current tab number)
+
+					break;
+				}
+
+				else if (iUserSel == 0)
+				{
+					break; (Here it would be enough to just break the loop, since the user has already entered the number zero,
+							after exiting the conditional statement, the program will directly forward the default message to the user.)
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about a mistake")
+				}
+			}						
+		}
+
+
+		else if (Fifth tab)
+		{
+			printf("Tab information")
+
+			scanf(Variable assignment {dVar})
+
+			// Calculations \\
+
+			printf("Output")
+
+			while (true) (To ask user if he/she is done on this tab)
+			{
+				printf("Question")
+
+				scanf(Variable assignment {iUserSel})
+
+				if (iUserSel == 1) (If the user enters 1, it means he is not done yet in current tab)
+				{
+					iUserSel = (Current tab number)
+
+					break;
+				}
+
+				else if (iUserSel == 0)
+				{
+					break; (Here it would be enough to just break the loop, since the user has already entered the number zero,
+							after exiting the conditional statement, the program will directly forward the default message to the user.)
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about a mistake")
+				}
+			}			
+		}
+
+
+		else if (Sixth tab)
+		{
+			printf("Tab information")
+
+			scanf(Variable assignment {dVar})
+
+			// Calculations \\
+
+			while (true) (To ask user if he/she is done on this tab)
+			{
+				printf("Question")
+
+				scanf(Variable assignment {iUserSel})
+
+				if (iUserSel == 1) (If the user enters 1, it means he is not done yet in current tab)
+				{
+					iUserSel = (Current tab number)
+
+					break;
+				}
+
+				else if (iUserSel == 0)
+				{
+					break; (Here it would be enough to just break the loop, since the user has already entered the number zero,
+							after exiting the conditional statement, the program will directly forward the default message to the user.)
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about a mistake")
+				}
+			}			
+		}
+
+
+		else if (Seventh tab)
+		{
+			printf("Tab information")
+
+			scanf(Variable assignment {dVar})
+
+			// Calculations \\
+
+			printf("Output")
+
+			while (true) (To ask user if he/she is done on this tab)
+			{
+				printf("Question")
+
+				scanf(Variable assignment {iUserSel})
+
+				if (iUserSel == 1) (If the user enters 1, it means he is not done yet in current tab)
+				{
+					iUserSel = (Current tab number)
+
+					break;
+				}
+
+				else if (iUserSel == 0)
+				{
+					break; (Here it would be enough to just break the loop, since the user has already entered the number zero,
+							after exiting the conditional statement, the program will directly forward the default message to the user.)
+				}
+
+				else (Error prevention)
+				{
+					printf("Informing user about a mistake")
+				}
+			}			
+		}
+
+
+		else if (Default tab)
+		{
+			printf("Application information")
+
+			scanf(Variable assignment {iUserSel})
+		}
+
+
+		else (error prevention)
+		{
+			printf("Informing user about that there is a mistake w")
+		}
+	}
+}
+
